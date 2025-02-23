@@ -3,27 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Byte-Sized Speech</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-gray-100 text-gray-900">
-    <header class="bg-blue-600 text-white text-center py-6">
-        <h1 class="text-3xl font-bold">Welcome to Byte-Sized Speech</h1>
-        <nav class="mt-4">
-            <a href="index.html" class="px-4">Home</a>
-            <a href="resources.html" class="px-4">Resources</a>
-            <a href="videos.html" class="px-4">Videos</a>
-            <a href="blog.html" class="px-4">Blog</a>
-            <a href="games.html" class="px-4 font-bold">Games</a>
-        
-        </nav>
-    </header>
-
-    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articulation Board Game</title>
+    <title>Byte-Sized Speech</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Phaser.js -->
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.min.js"></script>
+
     <style>
         body {
             margin: 0;
@@ -34,8 +22,24 @@
             height: 100vh;
         }
     </style>
-<body>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-blue-600 text-white text-center py-6">
+        <h1 class="text-3xl font-bold">Welcome to Byte-Sized Speech</h1>
+        <nav class="mt-4">
+            <a href="index.html" class="px-4">Home</a>
+            <a href="resources.html" class="px-4">Resources</a>
+            <a href="videos.html" class="px-4">Videos</a>
+            <a href="blog.html" class="px-4">Blog</a>
+            <a href="games.html" class="px-4 font-bold">Games</a>
+        </nav>
+    </header>
+
+    <!-- Game Container -->
     <div id="game-container"></div>
+
+    <!-- Game Script -->
     <script src="articulation-game.js"></script>
 </body>
 </html>
